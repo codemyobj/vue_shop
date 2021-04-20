@@ -91,6 +91,7 @@
           <!-- options用来指定数据源 -->
           <!-- props用来指定配置对象 -->
           <el-cascader
+            expand-trigger="hover"
             v-model="selectedKeys"
             :options="parentCateList"
             :props="cascaderProps"
